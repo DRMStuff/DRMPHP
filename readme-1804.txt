@@ -15,7 +15,7 @@ sudo apt-get install -y php7.4 php7.4-cli php7.4-json php7.4-common php7.4-mysql
 --DOWNLOAD
 cd /home
 sudo apt install git
-git clone https://github.com/DRM-Scripts/DRMPHP
+git clone https://github.com/DRMStuff/DRMPHP
 
 --SETUP
 sudo nano /etc/mysql/my.cnf - Copy the below into the cnf file
