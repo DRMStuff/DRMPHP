@@ -3,7 +3,7 @@
 #-- UBUNTU 18.04 ONLY --
 
 echo "############################################################################################"
-echo "#               DRMPHP 0.1 BY DRMSCRIPTS COMMUNITY - HTTPS://DRMSCRIPTS.COM                #"
+echo "#                            DRMPHP 0.1 Installer                                          #"
 echo "# THIS INSTALL IS BASED ON INSTALLING ALL FILES IN PANEL FOLDER TO THE ROOT OF HTML FOLDER #"
 echo "############################################################################################"
 
@@ -31,7 +31,7 @@ apt-get install php7.4 php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-
 # Download Panel
 cd /home;
 apt install git -y;
-git clone https://github.com/DRM-Scripts/DRMPHP;
+git clone https://github.com/DRMStuff/DRMPHP;
 
 echo "####################################################";
 echo "# INSTALL STEP 2: MYSQL, SHORTTAGS, FFMPEG & PANEL #";
